@@ -8,7 +8,6 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { UsuarioComponent } from './usuario/usuario.component';
-import { Usuario } from './models/usuario';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,6 @@ import { Usuario } from './models/usuario';
   imports: [
     BrowserModule,
     HttpClientModule,
-    Usuario,
     FormsModule
 
   ],
