@@ -18,9 +18,9 @@ import { Usuario } from './models/usuario';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     Usuario,
-    FormsModule,
-    NgModule
+    FormsModule
 
   ],
   providers: [{

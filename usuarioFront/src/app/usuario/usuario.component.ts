@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Usuario } from '../models/usuario';
-import { interval } from 'rxjs';
 import { RemoteDataService } from '../service/remote-data.service';
 
 @Component({

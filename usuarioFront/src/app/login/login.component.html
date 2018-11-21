@@ -1,9 +1,5 @@
 <form (ngSubmit)="onSubmit(userForm);" #userForm = "ngForm" >
-
-
-<input placeholder="Nombre Usuario" [(ngModel)] = "user.nombre" name="nombre">
-
-
-
-
+  <input placeholder="Nombre Usuario" [(ngModel)] = "user.nombre" name="nombre">
+  <button type="submit"> Entrar </button>
+  <button type="button" (click)="limpiar(userForm)"> Limpiar </button>
 </form>

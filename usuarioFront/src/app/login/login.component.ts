@@ -36,4 +36,13 @@ export class LoginComponent implements OnInit {
     //console.log(this.cat);
   }
 
+  /*
+  * Funcion para limpiar el formulario
+  */
+ limpiar(f: NgForm) {
+  console.log("Limpiando....");
+  f.resetForm();
+  this.enviado = false;
+}
+
 }
