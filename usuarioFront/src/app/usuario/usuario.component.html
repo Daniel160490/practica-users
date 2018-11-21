@@ -1,0 +1,8 @@
+<div class="container">
+    <div style="width: 300px; background-color: aliceblue" class="list-unstyled text-center shadow-sm card-body">
+      <h3>Listado de usuarios</h3>
+      <li *ngFor= "let user of response">
+        <ul>{{ user.nombre }} <input (click)="retornarUsuario(user.id)" type="button" class="btn btn-primary btn-xs" value="Ver +"> </ul>
+      </li>
+    </div>
+  </div>
